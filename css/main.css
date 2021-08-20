@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  font-family: "Karma", serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+section {
+  border: solid 3px #987ffa;
+  border-radius: 6px;
+}
+
+h2 {
+  color: #6f00e7;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+a {
+  font-family: "Oswald", sans-serif;
+  background-color: #6f00e7;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.first {
+  max-width: 256px;
+  max-height: 256px;
+  margin: 0 auto;
+  display: block;
+}
+
+p {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+div {
+  display: flex;
+  align-self: center;
+
+}
