@@ -42,7 +42,10 @@ li {
   border: solid 3px #987ffa;
   border-radius: 6px;
   margin: 0;
+<<<<<<< HEAD
   padding: 1rem;
+=======
+>>>>>>> 5346a268da06a9402bb2eb326ccf0f4d8e007621
 }
 
 h2 {
@@ -85,7 +88,10 @@ span {
   font-family: Oswald, sans-serif;
   color: #fff;
   font-weight: bold;
+<<<<<<< HEAD
   padding: 2em 1.5em 1.5em;
+=======
+>>>>>>> 5346a268da06a9402bb2eb326ccf0f4d8e007621
 }
 
 .cart {
@@ -95,12 +101,20 @@ span {
   border-radius: 3em;
   padding: .25em;
   flex-shrink: 2;
+<<<<<<< HEAD
   margin-right: 3rem;
+=======
+  margin-right: 10rem;
+>>>>>>> 5346a268da06a9402bb2eb326ccf0f4d8e007621
   align-items: center;
 }
 
 .cart img {
   vertical-align: middle;
   padding-left: 1rem;
+<<<<<<< HEAD
+=======
+  padding-right: 1rem;
+>>>>>>> 5346a268da06a9402bb2eb326ccf0f4d8e007621
   font-weight: bold;
 }
