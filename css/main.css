@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+a:focus {
+  outline: 3px solid #000;
+}
+
 ol {
   display: grid;
   gap: 1rem;
@@ -19,9 +23,15 @@ ol {
     "img6" "img8";
   padding: .5rem;
   list-style-type: none;
-  margin: auto;
-  border-width: 3px;
-  border-style: none;
+  margin: 0;
+}
+
+a:hover {
+  color: #000;
+}
+
+.aria-label {
+  font-weight: bold;
 }
 
 li {
@@ -85,5 +95,6 @@ div {
 .cart img {
   vertical-align: middle;
   padding-left: 1rem;
-  padding-right: .5rem;
+  padding-right: 1rem;
+  font-weight: bold;
 }
